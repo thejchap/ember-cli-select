@@ -1,7 +1,8 @@
 import Ember from 'ember';
 import layout from '../templates/components/select-box';
+const { on, A, Component } = Ember;;
 
-export default Ember.Component.extend({
+export default Component.extend({
 	layout,
 	content: [],
 	'prompt': null,
